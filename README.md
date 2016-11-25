@@ -52,6 +52,62 @@ De esta forma para la red de transporte aéreo colombiana, si se toma un origen-
 
 - Degree Distribution
 
+<img src="Deg.Dist_g.jpeg">
+
+Como se puede observar en la gráfica, gran cantidad de nodos en este caso aeropuertos, tienen grado 1 de conexión, ciudades como Medellín, Cali, Cartagena, San Andrés, tienen grado 4-5 y Bogotá es la única con un alto grado mayor a 20.
+
+Dada la presencia de hubs, en este caso Bogotá (BOG) que está altamente conectado a la red analizada. La red de transporte aéreo presenta la propiedad “Scale free-Network”.
+
+- Assortative Mixing
+
+Una red se dice que es “Assortative” si existen conexiones entre nodos con características similares (grado) y “Disassortative” cuando existen conexiones entre nodos disimiles.
+
+Esta medida se da a través del coeficiente de Pearson. Para la red de transporte aéreo este coeficiente es: -0.545, el cual se interpreta que la red analizada es disassortative. De lo que se concluye que aeropuertos con menos conexiones están conectados a aeropuertos con alta-media conexiones.  Esto refleja que entre pequeñas ciudades no hay vuelos existentes.
+
+- Clustering Coefficient
+
+Este coeficiente mide que tanto están agrupados los nodos con sus vecinos, en otras palabras, mide si los vecinos de un nodo también se conectan entre sí. Para la red de transporte aéreo este coeficiente fue de: 0.17, el cual es bajo, este se puede interpretar que aeropuertos entre ciudades cercanas no están conectados, por ejemplo: Bogotá, Rioacha están conectadas, Bogotá, Santa Marta están conectadas, pero Rioacha-Santa Marta no lo están.
+
+- Medidas de Centralidad:
+
+Degree: Mide el número de conexiones que tiene cada nodo.
+
+<img src="degree_centrality_g.jpeg">
+
+Betweenness: Esta medida cuantifica el número de veces que un nodo hace de puente a lo largo del camino más corto entre otros dos nodos.
+
+<img src="Beetweenness_Centrality_g.jpeg">
+
+Betweenness centrality es una característica que involucra a vértices como lazos, para el presente análisis de red, los tres lazos que tienen mayor centralidad intermedia son:
+
+BOG-EOH, BOG-CLO, BOG-ADZ.
+
+- Diámetro:
+
+Dentro todas las conexiones de nodos, el diámetro en teoría de redes se define como la mayor distancia que hay entre dos pares de estos.
+Para el análisis de la red de transporte aéreo “g” se tiene que el diámetro es 4. Al identificar cuáles son los nodos que conforman esa mayor distancia se tiene que para llegar de Apartadó a Tumaco se tiene que primero ir al aeropuerto Olaya Herrera(MED), luego a Bogotá, siguiente a Cali para terminar en Tumaco. De igual forma de Tumaco-Apartadó.  
+
+
+<img src="Diametro_g.jpeg">
+
+- Connectivity
+
+Una red se dice conectada, si cada vértice es accesible desde todos los demás, es decir, si para cualesquiera dos vértices existe un lazo entre los dos.
+Para la red de transporte aéreo colombiana, se tiene que es conectada. Esto quiere decir, que escoger desde un origen un destino aleatorio se puede arribar.  
+
+- Partición de la red
+
+La partición de una red es una herramienta útil, que busca encontrar subconjuntos de vértices que demuestren una cohesión bajo las patronas relacionales de la red.
+
+Un subconjunto se dice cohesivo si:
+
+•	Los nodos de este, están bien conectados entre si
+•	Están relativamente bien separados de los nodos restantes de la red
+
+
+
+
+
 
 
 
