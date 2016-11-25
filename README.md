@@ -21,7 +21,8 @@ Se medirán las principales propiedades propias de una red, como lo son:
 - Partición de la red
 
 
-Adicional a estas propiedades se hará una comparación entre la red que toma datos de las diferentes rutas entre aeropuertos colombianos en agosto del 2016 y la red con datos en agosto del 2006. Con esto, se busca observar la evolución del transporte aéreo colombiano durante una década.
+Adicional a estas propiedades se hará una comparación entre la red que toma datos de las diferentes rutas entre aeropuertos colombianos en agosto del 2016 (Red "g") y la red con datos en agosto del 2006 (Red "h"). Con esto, se busca observar la evolución del transporte aéreo colombiano durante una década.
+
 Para el presente análisis los nodos de la red son los distintos aeropuertos ubicados en las ciudades colombianas y una conexión es simplemente la existencia de un vuelo entre dos de ellos, para este caso la red se tomará no direccionada, teniendo en cuenta que en todos los casos si existe un vuelo de ida, existe vuelo de regreso.
 
 Los datos que determinan la relación entre los distintos nodos(aeropuertos) fueron tomados de la Aeronautica Civil Colombiana, la cual en su página tiene estadísticas mensuales de origen-destino del transporte aéreo en Colombia.
@@ -102,17 +103,88 @@ La partición de una red es una herramienta útil, que busca encontrar subconjun
 Un subconjunto se dice cohesivo si:
 
 •	Los nodos de este, están bien conectados entre si
+
 •	Están relativamente bien separados de los nodos restantes de la red
 
+<img src="hierical_g.jpeg">
+
+A continuación se obtendrán los resultados para la red "h" correspondiente a los datos de relación viajes origen-destino del agosto del 2006 y se compararán con los hallados para la red "g".
+
+- Grafica de la red "h"
+
+<img src="Grafica_h.jpeg">
+
+La red “h” tiene 28 nodos y 39 conexiones entre los nodos.
+
+- Average path length (h)
+
+Para la red "h" esta medida es 2.124
+
+Para la red g, fue de 2.092 es decir que en 10 años ha disminuido muy poco esta medida. Los viajeros deben visitar la misma cantidad de aeropuertos para llegar a su destino.
+
+- Degree Distribution (h)
+
+<img src="Deg.Dist_h.jpeg">
+
+Con esta grafica se puede decir que en 10 años la red no ha dejado de ser scale-free, hay presencia de hubs, por lo tanto, siguen existiendo nodos altamente conectados y la mayoría con conexión baja.
+
+- Assortative 
+
+El coeficiente de Pearson para g es de -0.545, y para h es de -0.559 lo que significa que la red en una década no ha dejado de ser Disassortative. Por lo tanto, siguen existiendo aeropuertos con bajo grado de conexión conectados a nodos con alto grado. Pero sin conexión entre ellos.
+
+- Clustering (h)
+
+Para la red g, el coeficiente es de 0.17 mientras que para la red h es de 0,14. Lo que quiere decir que en 10 años no ha aumentado considerablemente, por lo tanto, sigue no existiendo conexiones aéreas entre ciudades cercanas.
+
+- Degree Centrality
+
+BOG Hace 10 era el único nodo central de la red y eso sigue sucediendo una decada después, por lo tanto no existe aeropuerto que en el transporte de pasajeros tenga importancia similar.
+
+- Betweenness Centrality
+
+En el 2006 los lazos con mayor intermediación, es decir, que sirven como puente para los demás nodos de la red son: BOG-EOH, BOG-ADZ, BOG-MZL. En el 2016 son BOG-EOH, BOG-CLO, BOG-ADZ. Es decir que en 10 años la conexión BOG-CLO se ha potencializado.
+
+- Diametro (h)
+
+Para la red h se tiene que el diámetro es 4, es decir se deben pasar por 4 aeropuertos para llegar al destino final. Este diámetro lo componen el viaje de APO a PVA. Se sale de Apartadó al Aeropuerto Olaya Herrera en Medellín, de ahí a Bogotá, de Bogotá a San Andrés y de San Andrés a Providencia.
+
+El diámetro entre las dos redes cambia con respecto a los nodos que la componen. Debido a que el camino más largo en la red "g" se tiene de Apartadó a Tumaco. 
+
+- Connectivity h
+
+En 2006 la red de transporte aéreo estaba conectada, es decir cualquier origen-destino se puede conectar.
 
 
+- Partición de la red (h)
 
+<img src="hierical_h.jpeg">
+
+A comparación de la red “g” la red “h” tiene solo tres subconjuntos de vértices cohesivos, esto se puede interpretar que en 10 años han aparecido nuevos aeropuertos como el caso de Tumaco y se han formado nuevas conexiones en la red.
 
 
 
 
 
 ##Conclusiones
+
+- Dadas las medidas encontradas y la degree distribution, la red de transporte aéreo tiene un nodo central que es Bogotá, el cual tiene un alto grado de centralidad y de intermediación y la gran mayoría de los otors nodos presentan un bajo grado de centralidad.
+ Con lo anterior la red presenta una topología de estrella. La cual tiene como ventajs: 
+ 
+- Permite agregar nuevos nodos de manera fácil.
+- Reactivación rápida.
+- Fácil de prevenir daños e ineficiencias
+- Centralización de la red.
+
+Desventajas:
+
+- Fallas en el nodo central, implica fallas en toda la red. 
+
+La evolución de la red en 10 años ha sido mínima, salvo a algunos nodos y conexiones nuevas. Las características y medidas de la red no han cambiado de manera siginificativa
+
+En 10 años se ha fortalecido el transporte aéreo del valle del cauca y alrededores a todo el país.
+
+La red hace 10 años y ahora está totalmente conectada.
+
 
 
 
