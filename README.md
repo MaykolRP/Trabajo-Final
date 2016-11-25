@@ -38,6 +38,7 @@ Para analizar la red de transporte aéreo colombiana se utilizo lenguaje de prog
 ## Resultados 
 
 - Grafica de la red "g"
+
 <img src="Grafica_g.jpeg">
 
 
