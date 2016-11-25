@@ -33,6 +33,10 @@ Para analizar la red de transporte aéreo colombiana se utilizo lenguaje de prog
 
 2. Para la graficación de la red, se dieron características tanto de color y forma a vertices y nodos, esto con la finalidad de identificar diferentes relaciones dentro de la red como: nodos centrales, diametro y partición de la red.
 
-3. iGraph es bastante detallado en sus códigos para encontrar la información que se requiere de la red y así interpretar la dinámica que esta presenta. Por esta razón medidas como Averahe Shortest Path, Degree Distribution, Clustering, entre otras. De esta forma ya construida la Red
+3. iGraph es bastante detallado en sus códigos para encontrar la información que se requiere de la red y así interpretar la dinámica que esta presenta. Por esta razón medidas como Averahe Shortest Path, Degree Distribution, Clustering, entre otras una vez construida la red, son medidas faciles de obtener.
+
+##Conclusiones
+
+
 
 
