@@ -46,6 +46,8 @@ El código completo disponible [Aquí](RedTransp_Aereo_Colombia.R)
 
 La red “g” tiene 32 nodos y 50 conexiones entre los nodos.
 
+A continuación las características y medidas de la red "g" relaciones origen-destino transporte aéreo agosoto 2016.
+
 - Average Shortest Path de la red "g"
 
 Esta característica se define como el promedio en la cantidad de pasos para llegar de un nodo a otro nodo.
