@@ -1,4 +1,4 @@
-# Análisis de red:transporte aéreo colombiano
+# Análisis de red: transporte aéreo colombiano
 [Maykol Rodríguez Prieto]
 Noviembre, 2016
 
