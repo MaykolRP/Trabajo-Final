@@ -146,6 +146,8 @@ En el 2006 los lazos con mayor intermediación, es decir, que sirven como puente
 
 - Diametro (h)
 
+<img src="Diametro_h.jpeg">
+
 Para la red h se tiene que el diámetro es 4, es decir se deben pasar por 4 aeropuertos para llegar al destino final. Este diámetro lo componen el viaje de APO a PVA. Se sale de Apartadó al Aeropuerto Olaya Herrera en Medellín, de ahí a Bogotá, de Bogotá a San Andrés y de San Andrés a Providencia.
 
 El diámetro entre las dos redes cambia con respecto a los nodos que la componen. Debido a que el camino más largo en la red "g" se tiene de Apartadó a Tumaco. 
@@ -167,8 +169,8 @@ A comparación de la red “g” la red “h” tiene solo tres subconjuntos de 
 
 ##Conclusiones
 
-- Dadas las medidas encontradas y la degree distribution, la red de transporte aéreo tiene un nodo central que es Bogotá, el cual tiene un alto grado de centralidad y de intermediación y la gran mayoría de los otors nodos presentan un bajo grado de centralidad.
- Con lo anterior la red presenta una topología de estrella. La cual tiene como ventajs: 
+1. Dadas las medidas encontradas y la degree distribution, la red de transporte aéreo tiene un nodo central que es Bogotá, el cual tiene un alto grado de centralidad y de intermediación y la gran mayoría de los otors nodos presentan un bajo grado de centralidad.
+ Con lo anterior la red presenta una topología de estrella. La cual tiene como ventajas: 
  
 - Permite agregar nuevos nodos de manera fácil.
 - Reactivación rápida.
@@ -179,9 +181,9 @@ Desventajas:
 
 - Fallas en el nodo central, implica fallas en toda la red. 
 
-La evolución de la red en 10 años ha sido mínima, salvo a algunos nodos y conexiones nuevas. Las características y medidas de la red no han cambiado de manera siginificativa
+2. La evolución de la red en 10 años ha sido mínima, salvo a algunos nodos y conexiones nuevas. Las características y medidas de la red no han cambiado de manera siginificativa
 
-En 10 años se ha fortalecido el transporte aéreo del valle del cauca y alrededores a todo el país.
+3. En 10 años se ha fortalecido el transporte aéreo del valle del cauca y alrededores a todo el país.
 
 La red hace 10 años y ahora está totalmente conectada.
 
