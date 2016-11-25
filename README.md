@@ -41,6 +41,19 @@ Para analizar la red de transporte aéreo colombiana se utilizo lenguaje de prog
 
 <img src="Grafica_g.jpeg">
 
+La red “g” tiene 32 nodos y 50 conexiones entre los nodos.
+
+- Average Shortest Path de la red "g"
+
+Esta característica se define como el promedio en la cantidad de pasos para llegar de un nodo a otro nodo.
+Para el grafo g que analiza los datos de agosto de 2016, esta medida es: 2.092742.
+
+De esta forma para la red de transporte aéreo colombiana, si se toma un origen-destino aleatorio un pasajero debería visitar dos aeropuertos para llegar a su destino final.
+
+- Degree Distribution
+
+
+
 
 
 ##Conclusiones
