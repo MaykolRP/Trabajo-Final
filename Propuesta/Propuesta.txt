@@ -1,0 +1,3 @@
+Propuesta-Trabajo Final MCPP
+Mi propuesta consiste en realizar un Análisis de redes, utilizando como principal herramienta lenguaje de programación R, específicamente la librería “iGraph”. El análisis de red que desarrollaré será el de la red de transporte aéreo colombiana. 
+Con R, creare la red, graficaré ciertas características de ésta y obtendré medidas pertenecientes a la teoría de redes para la red de transporte aéreo colombiana. Evaluaré la evolución de dicha red, comparándola con una red creada con datos de 10 años atrás. 
