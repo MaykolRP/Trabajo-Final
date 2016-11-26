@@ -181,7 +181,7 @@ A comparación de la red “g” la red “h” tiene solo tres subconjuntos de 
 - Fácil de prevenir daños e ineficiencias
 - Centralización de la red.
 
-Desventajas:
+ Desventajas:
 
 - Fallas en el nodo central, implica fallas en toda la red. 
 
@@ -189,7 +189,7 @@ Desventajas:
 
 3. En 10 años se ha fortalecido el transporte aéreo del valle del cauca y alrededores a todo el país.
 
-La red hace 10 años y ahora está totalmente conectada.
+4. La red hace 10 años y ahora está totalmente conectada.
 
 
 
